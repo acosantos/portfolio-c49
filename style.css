@@ -1,0 +1,21 @@
+body{
+    display:flex;
+    flex-direction: column;
+    background-color: rgba(188, 162, 213, 0.996);
+}
+#header{
+    background-color: rgba(184, 130, 235, 0.638);
+    border: 1px solid;
+    display:flex;
+    align-items: center;
+    justify-content:space-between;
+}
+.imgRedeSocial{
+    width: 50px;
+}
+.jogo{
+
+}
+.imgJogo{
+  
+}

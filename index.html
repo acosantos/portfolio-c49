@@ -5,69 +5,122 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>HTML Básico</title>
-  <style>
-    h1{
-      color: blueviolet;
-      font-size: 50px;
-    }
-    img{
-      width: 400px;
-    }
-  </style>
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
   <!-- Cabeçalho do site -->
-  <header>
+  <header id="header">
     <!-- Coloque aqui o seu nome -->
-    <h1>Título de nível 1</h1>
+    <h1>Ana Carolina Santos</h1>
 
     <!-- Menu com os links das paginas -->
     <menu>
-      <a href="index.html" target="_blank">Projetos</a>
-      <a href="aboutMe.html" target="_blank">Sobre</a>
+      <a class="linkHeader" href="index.html" target="_blank">Projetos</a>
+      <a class="linkHeader" href="aboutMe.html" target="_blank">Sobre</a>
     </menu>
   </header>
 
   <!-- Corpo do site -->
   <main>
+    <div id="headerMain">
+      <h2>Projetos desenvolvidos por mim:</h2>
 
-    <h2>Projetos desenvolvidos por mim:</h2>
+      <!-- Coloque aqui uma breve descrição dos projetos que desenvolveu -->
+      <p>Todos os jogos foram desenvolvidos usando JavaScript. <br><!-- quebra de linha -->
 
-    <!-- Coloque aqui uma breve descrição dos projetos que desenvolveu -->
-     <p>Todos os jogos foram desenvolvidos usando JavaScript.  <br><!-- quebra de linha -->
-      São jogos Web utilizando as bibliotecas Matter.js e p5.play
-    </p>
-     
-    <!-- informações sobre o jogo -->
-    <div>
-      <!-- link do jogo -->
-      <a href="https://github.com/dejandrea/dejandrea" target="_blank">
-        <!-- imagem do jogo -->
-        <img src="./images/Trex.png" alt="Imagem do jogo do trex">
-      </a>
-
-      <br><!-- quebra de linha -->
-
-      <!-- link do código de jogo -->
-      <a href="github.com/dejandrea/T-rex-Game" target="_blank">
-        Código do Jogo
-      </a>
+      </p>
     </div>
+    <div id="jogos">
+      <!-- informações sobre o jogo -->
+      <div class="jogo">
+        <div class="imgJogo">
+          <!-- link do jogo -->
+          <a href="https://acosantos.github.io/Speed-Racer-Mine-master/" target="_blank">
+            <!-- imagem do jogo -->
+            <img src="./images/speedracer1.png" alt="Imagem jogo speed racer">
+          </a>
 
+          <br><!-- quebra de linha -->
 
+          <!-- link do código de jogo -->
+          <a href="https://github.com/acosantos/Speed-Racer-Mine-master.git" target="_blank">
+            Código do Jogo
+          </a>
+        </div>
+        <!-- informações sobre o jogo -->
+        <div class="jogo">
+          <div class="imgJogo">
+          <!-- link do jogo -->
+          <a href="https://acosantos.github.io/alimente-o-coelho-aula3-master/" target="_blank">
+            <!-- imagem do jogo -->
+            <img src="./images/alimenteocoelho.png" alt="Imagem jogo do coelho">
+          </a>
+
+          <br><!-- quebra de linha -->
+
+          <!-- link do código de jogo -->
+          <a href="https://github.com/acosantos/alimente-o-coelho-aula3-master.git" target="_blank">
+            Código do Jogo
+          </a>
+        </div>
+        <!-- informações sobre o jogo -->
+        <div class="jogo">
+          <div class="imgJogo">
+          <!-- link do jogo -->
+          <a href="https://acosantos.github.io/ATV-2---ALUNO---TEMPLATE/" target="_blank">
+            <!-- imagem do jogo -->
+            <img src="./images/jogodog.png" alt="Imagem jogo speed racer">
+          </a>
+
+          <br><!-- quebra de linha -->
+
+          <!-- link do código de jogo -->
+          <a href="https://github.com/acosantos/ATV-2---ALUNO---TEMPLATE.git" target="_blank">
+            Código do Jogo
+          </a>
+        </div>
+        <!-- informações sobre o jogo -->
+        <div class="jogo">
+          <div class="imgJogo">
+          <!-- link do jogo -->
+          <a href="https://acosantos.github.io/43-solution/" target="_blank">
+            <!-- imagem do jogo -->
+            <img src="./images/livrodemensagens.png" alt="Imagem livro de mensagens">
+          </a>
+
+          <br><!-- quebra de linha -->
+
+          <!-- link do código de jogo -->
+          <a href="https://github.com/acosantos/43-solution.git" target="_blank">
+            Código do Jogo
+          </a>
+        </div>
+    </div>
   </main>
 
   <!-- Rodapé do site -->
   <footer>
     <!-- link da rede social -->
-    <a href="https://github.com/dejandrea/dejandrea" target="_blank">
+    <a href="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fpermalink.php%3Fstory_fbid%3Dpfbid0qXK8oJZL88f9fACxcYwyCKnApdoQU9NWjYhfziwQGt3fK1mJRVqQK4SZ4azQp3M7l%26id%3D100048130697296&show_text=true&width=500" width="500" height="375" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>" target="_blank">
       <!-- icone da rede social -->
-      <img src="./images/githubIcon.png" alt="icone github">
+      <img class="imgRedeSocial" src="./images/fb.png" alt="icone email">
     </a>
+        <!-- link da rede social -->
+        <a href="https://www.instagram.com/p/CjeUo8HLkiy/?igshid=YmMyMTA2M2Y" target="_blank">
+          <!-- icone da rede social -->
+          <img class="imgRedeSocial" src="./images/insta.png" alt="icone instagram">
+        </a>
+                <!-- link da rede social -->
+                <a href="https://www.tiktok.com/@ac_santoss/video/7180860092827454726?is_from_webapp=1&sender_device=pc&web_id=7185009894101616134" target="_blank">
+                  <!-- icone da rede social -->
+                  <img class="imgRedeSocial" src="./images/ttk.png" alt="icone tiktok">
+                </a>
+        
 
   </footer>
 
 </body>
+
 </html>
